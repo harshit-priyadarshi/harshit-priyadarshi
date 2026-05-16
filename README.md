@@ -6,11 +6,7 @@
   <a href="https://github.com/harshit-priyadarshi?tab=followers">
     <img src="https://img.shields.io/github/followers/harshit-priyadarshi?label=Followers&style=for-the-badge&logo=github&color=58a6ff&labelColor=0d1117" alt="followers" />
   </a>
-  &nbsp;
-  <a href="https://github.com/harshit-priyadarshi?tab=following">
-    <img src="https://img.shields.io/github/following/harshit-priyadarshi?label=Following&style=for-the-badge&logo=github&color=1f6feb&labelColor=0d1117" alt="following" />
-  </a>
-  &nbsp;
+  
   <a href="https://github.com/harshit-priyadarshi?tab=repositories">
     <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fharshit-priyadarshi&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&logo=github&color=238636&labelColor=0d1117" alt="repos" />
   </a>
