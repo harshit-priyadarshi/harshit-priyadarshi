@@ -116,52 +116,6 @@ me.say_hi()
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-![snake animation](https://github.com/harshit-priyadarshi/harshit-priyadarshi/blob/output/github-snake-dark.svg)
-
-</div>
-
-<details>
-<summary>⚙️ Snake not visible? One-time setup here</summary>
-
-Create `.github/workflows/snake.yml` in this repo with the following content, then go to **Actions → Generate snake animation → Run workflow** once manually:
-
-```yaml
-name: Generate snake animation
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-permissions:
-  contents: write
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      - name: Push to output branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: dist
-          force_orphan: true
-```
-
-</details>
-
----
-
-<div align="center">
-
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer)
 
 </div>
