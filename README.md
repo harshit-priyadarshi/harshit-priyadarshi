@@ -109,16 +109,6 @@ me.say_hi()
 
 ---
 
-## 🏆 Trophies
-
-<div align="center">
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=harshit-priyadarshi&theme=gitdimmed&no-frame=true&column=7&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## 🚀 Projects
 
 ### 🤖 AI Research Paper Assistant
